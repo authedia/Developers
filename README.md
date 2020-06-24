@@ -1,4 +1,4 @@
-# Authedia Developers
+![](Figures/logo.png)
 
 The Authedia Protocol sets the standard for proving the authenticity of digital media. This service is freely available to developers. The Authedia Protocol can be leveraged for [proof of ownership](https://github.com/Authedia/Developers#wrap-media) - registering media originated from your application. As well as [verifying the authenticity](https://github.com/Authedia/Developers#verify-media) of digital media.
 
@@ -53,7 +53,7 @@ Returns
 
 Returns  
   * verify_response : (dict) : See below for key value info
-  
+
 ```
 {
     'Bounds'  : str  : Original size of media
