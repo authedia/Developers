@@ -11,7 +11,7 @@ RESPONSE_DICT = {
     'Message' : 'Bad response'
 }
 
-def wrap(api_key, input_file_name, output_file_name=''):
+def Wrap(api_key, input_file_name, output_file_name=''):
     '''
     PARAMS
         api_key : (str) : User's API key
@@ -75,7 +75,7 @@ def wrap(api_key, input_file_name, output_file_name=''):
         return RESPONSE_DICT
 
 
-def verify(api_key, input_file_name):
+def Verify(api_key, input_file_name):
     '''
     PARAMS
         api_key : (str) : User's API key

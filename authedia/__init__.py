@@ -1,1 +1,1 @@
-from manager import wrap, verify
+from manager import Wrap, Verify
