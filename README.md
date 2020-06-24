@@ -1,11 +1,13 @@
 # Authedia Developers
 
+The Authedia Protocol sets the standard for proving the authenticity of digital media. This service is freely available to developers. The Authedia Protocol can be leveraged for [proof of ownership](https://github.com/Authedia/Developers#wrap-media) - registering media originated from your application. As well as [verifying the authenticity](https://github.com/Authedia/Developers#wrap-media) of digital media.
+
 ### Getting Started
 1. Register for an API key
   * Create an account and register for a key [here](www.authedia.com)
 2. Call the Authedia API in your application
 
-### Supported Files
+### Supported File Types
 * Audio
   * wav
 * Images
@@ -15,14 +17,14 @@
   * mp4
 
 ### Provided Languages
-* [Python]()
-* [Go]()
+* [Python](https://github.com/Authedia/Developers/tree/python)
+* [Go](https://github.com/Authedia/Developers/tree/go)
 
 # Documentation
 
 ### Wrap Media
 * Inserts secret information into the media file which can later be unwrapped to prove ownership
-  * Note: Wrapping media with the API will not prove authenticity, only ownership. As we are not able to ascertain the origin of the media file. To capture verifiable authentic media use our [mobile app]()
+  * Note: Wrapping media with the API will not prove authenticity, only ownership. As we are not able to ascertain the origin of the media file. To capture verifiable authentic media use our [mobile app](www.authedia.com)
 
 ```
 import authedia
@@ -42,15 +44,15 @@ authedia.wrap(
 Returns  
 * wrap_response : (dict) : See below for key value info
 
-  ```
-  {
-      'Success' : bool : successfully processed
-      'Message' : str  : error message if request is unsuccessful
-  }
-  ```
+```
+{
+    'Success' : bool : successfully processed
+    'Message' : str  : error message if request is unsuccessful
+}
+```
 
 ### Verify Media
-* Unwraps secret information from the media file. The ownership and authenticity will be determined. Detailed information regarding the originality of the media will be returned. 
+* Unwraps secret information from the media file. The ownership and authenticity will be determined. Detailed information regarding the originality of the media will be returned.
 
 ```
 response = authedia.verify(
