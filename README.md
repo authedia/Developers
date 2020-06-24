@@ -5,7 +5,7 @@ The Authedia Protocol sets the standard for proving the authenticity of digital 
 
 ### Getting Started
 1. Register for an API key
-  * Create an account and register for a key [here](www.authedia.com)
+  * Create an account and register for a key [here](http://www.authedia.com/)
 2. Call the Authedia API in your application
 
 ### Supported File Types
@@ -25,7 +25,7 @@ The Authedia Protocol sets the standard for proving the authenticity of digital 
 
 ### Wrap Media
 * Inserts secret information into the media file which can later be unwrapped to prove ownership
-  * Note: Wrapping media with the API will not prove authenticity, only ownership. As we are not able to ascertain the origin of the media file. To capture verifiable authentic media use our [mobile app](www.authedia.com)
+  * Note: Wrapping media with the API will not prove authenticity, only ownership. As we are not able to ascertain the origin of the media file. To capture verifiable authentic media use our [mobile app](http://www.authedia.com/)
 
 ```
 import authedia
