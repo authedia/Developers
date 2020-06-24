@@ -1,6 +1,7 @@
 # Authedia Developers
 
-The Authedia Protocol sets the standard for proving the authenticity of digital media. This service is freely available to developers. The Authedia Protocol can be leveraged for [proof of ownership](https://github.com/Authedia/Developers#wrap-media) - registering media originated from your application. As well as [verifying the authenticity](https://github.com/Authedia/Developers#wrap-media) of digital media.
+The Authedia Protocol sets the standard for proving the authenticity of digital media. This service is freely available to developers. The Authedia Protocol can be leveraged for [proof of ownership](https://github.com/Authedia/Developers#wrap-media) - registering media originated from your application. As well as [verifying the authenticity](https://github.com/Authedia/Developers#verify-media) of digital media.
+
 
 ### Getting Started
 1. Register for an API key
